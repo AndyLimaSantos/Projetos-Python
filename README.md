@@ -42,14 +42,6 @@ Minhas atividades envolviam a execução de simulações em ambientes computacio
 
 O objetivo deste repositório é apresentar o Python como uma das principais ferramentas utilizadas por mim para a escrita de scripts voltados à análise de dados científicos, bem como demonstrar ferramentas gráficas e bibliotecas úteis para esse tipo de análise.
 
-Por fim, este repositório tem como finalidade compor meu portfólio profissional, servindo futuramente como uma demonstração prática de conhecimentos técnicos para processos seletivos e oportunidades em grandes empresas.Meu nome é Anderson Lima dos Santos e atualmente sou estudante de mestrado em Física, com ênfase em estrutura eletrônica. Atuo há aproximadamente quatro anos com análise de dados científicos, com foco na indústria farmacêutica, além de desenvolver simulações computacionais aplicadas a sistemas biológicos.
-
-Ao longo da minha trajetória, trabalhei com diferentes sistemas biológicos, incluindo o vírus da COVID-19, durante um período de três anos, e o protozoário Trypanosoma cruzi e sua proteína cruzaína, por cerca de dois anos. Nesse intervalo, executei simulações de mecânica clássica e mecânica quântica, que resultaram na produção de um artigo científico atualmente em fase final de elaboração.
-
-Minhas atividades envolviam a execução de simulações em ambientes computacionais, bem como a análise dos dados gerados, tais como energia mínima, aminoácidos em contato, ligações químicas, regiões de interação, entre outros fatores biológicos, tanto numéricos quanto visuais. Essas análises tiveram como objetivo compreender e explicar o funcionamento de medicamentos atualmente testados para o tratamento dessas doenças.
-
-O objetivo deste repositório é apresentar o Python como uma das principais ferramentas utilizadas por mim para a escrita de scripts voltados à análise de dados científicos, bem como demonstrar ferramentas gráficas e bibliotecas úteis para esse tipo de análise.
-
 Por fim, este repositório tem como finalidade compor meu portfólio profissional, servindo futuramente como uma demonstração prática de conhecimentos técnicos para processos seletivos e oportunidades em grandes empresas.
 ## Bibliografia 
 
