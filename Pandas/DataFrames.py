@@ -15,26 +15,26 @@ colunas = "Brasil Argentina Russia USA China Bolivia Venezuela Franca Japao Core
 linhas = "Fome Desemprego Moradia Habitacao Chuva Idosos Jovens Contribuentes Estudo PIB".split()
 
 data2 = pd.DataFrame(data = arr2, index = linhas, columns= colunas) #Cria um novo data frame
-print(data2)
+#print(data2)
 
 '''
 Podemos acessar pegar uma coluna e mortrar ela ou inserir ela em uma nova vaiavel.
 '''
 
-print(data2['Brasil']) #Retorna um dado do tipo Series com os valores presentes na coluna de nome indicado por voce
-print(data2[['Brasil','Russia']]) #Retorna as colunas indexadas na lista informada.
+#print(data2['Brasil']) #Retorna um dado do tipo Series com os valores presentes na coluna de nome indicado por voce
+#print(data2[['Brasil','Russia']]) #Retorna as colunas indexadas na lista informada.
 
 '''
 Podemos criar uma nova coluna
 '''
 data2["Australia"] = pd.Series(data = np.arange(10), index = linhas)
-print(data2)
+#print(data2)
 
 '''
 Ou podemos somar duas colunas
 '''
 data2["Soma"] = data2['Brasil'] + data2['Australia']
-print(data2)
+#print(data2)
 
 '''
 Podemos retirar colunas do DataFrame para isso utilizamso o .drop(nomeDaColuna, Axis = 1 ou 0, inplace = True)
@@ -44,18 +44,24 @@ Axis = 0 -> Indica que será uma linha
 O inplace serve para retirar a coluna dos dados reais, não apenas demonstrativo, se colocarmos False ele não retira dos dados..
 '''
 data2.drop("Soma", axis = 1, inplace=True)
-print(data2)
+#print(data2)
 
 '''
 Podemos tirar as linhas, para isso fazemos com axis =0 e o nome será o nome da linha
 '''
 
-print(data2.drop("Chuva", axis=0, inplace=False))
+#print(data2.drop("Chuva", axis=0, inplace=False))
 
 '''
 Podemos acessar as lihas utilizando os métodos .loc(nomeDaLinha) e .iloc('numero da linha')
 vai devolver um dado do tipo Series também.
 '''
-print(data2)
-print(data2.loc['Chuva'])
-print(data2.iloc[4])
+#print(data2)
+#print(data2.loc['Chuva'])
+#print(data2.iloc[4])
+
+'''
+Para acessar uma coluna e linha especifica utilizamos a mesma escrita que em array
+'''
+
+#print(data2.loc["Chuva",'Brasil'])
