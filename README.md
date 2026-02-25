@@ -43,6 +43,8 @@ Na pasta definida como **_Intermediário_**, você irá encontrar o básico da t
 
 Na pasta **_Avançada_** você vai ter os conceitos de _Machine Learning_ e _Deep Learning_ e terá uma nota extra de Algoritimo Genético, que é muito utilizado para modelos onde as funções não são diferenciaveis (Sim, no final é tudo matemática)
 
+Na pasta **_DataClear_** tem alguns projetos que estou utilizando como base para testar os conceitos que eu vou aprendendo, pois lá tem 3 banco de dados diferentes. 
+
 Algo que vou **tentar* fazer durante a apresentação dos códigos é apresentar conceitos matemáticos muito pesados, principalmente para o conteúdo avançado, o motivo é que talvez nem todos possuam a base de cálculo diferêncial e Integral mas aconselho fortemente a tentar ler sobre ou estudar um pouco por fora, principalmente levando em consideração os avanços tecnológicos e de IA.
 
 Não vou entrar no assunto de computação quântica, acredito que isso já foge de qualquer arcabouço teórico mas posso deixar na bibliografia algumas referências caso se interesse.
