@@ -8,20 +8,22 @@ Nas listas o indice 0 é o que contem o nome das colunas de cada banco d dados
 
 
 class miniDB:
-    def __init__(self,nome_bandodados = ""):
+    def __init__(self):
         #criar um banco de dados
-        self.bandoDedados = {}
+        self.bancoDedados = {}
         self.colunas_dados = {}
         pass
-    def create_table(self,nome_tabela = "", nome_colunas = []):
+    def create_table(self,nome_tabela, nome_colunas):
         #criar uma tabela interna ao banco de dados
         self.colunas_dados[nome_tabela] = nome_colunas
         self.bancoDedados[nome_tabela] = []
         pass
     def insert(self, nome, dados):
-        slef.bancoDedados[nome].append(dados)
+        self.bancoDedados[nome].append(dados)
         pass
 
     #O desafio é o select
-    def select(self, nome_tabela):
+    def select(self, nome_tabela, columns = None):
+        if columns == None:
+            pass
         pass
